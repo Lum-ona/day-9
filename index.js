@@ -40,3 +40,22 @@ function greetings(time) {
 // greetings("Evening");
 
 // IF EVEN OR ODD
+
+// CALCULATOR
+
+function calculator(num1, operator, num2) {
+  let result;
+  if ((operator = "+")) {
+    result = num1 + num2;
+  } else if ((operator = "-")) {
+    result = num1 - num2;
+  } else if ((operator = "*")) {
+    result = num1 * num2;
+  } else if ((operator = "/")) {
+    result = num1 / num2;
+  } else {
+    console.log("Invalid Operator");
+  }
+}
+
+calculator(1, "+", 10);
